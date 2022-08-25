@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* FOOTER START */
+.footer-father-box{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    padding-left: 5%;
+    /* margin-bottom: 100%; */
+}
+.footer-father-box .children-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00654F;
+}
+.children-box .footer-text-1{
+    width: 400px;
+    color: white;
+}
+.children-box .footer-text-white{
+    color: white;
+}
+.footer-father-box .anh-dmca{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.footer-father-box .footer-brands{
+font-size: 30px;
+padding: 5px;
+background-color: white;
+border-radius: 5px;
+margin: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.footer-father-box .footer-solid{
+    font-size: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+/* .footer-father-box .fa-circle-z{
+    width: 50px;
+} */
+.footer-father-box .footer-small-box-1{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;  
+    color: white;
+    margin-top: 70px;
+}
+.footer-father-box .footer-chu5{
+    color: white;
+   padding-top: 250px;
+   padding-left: 50px;
+}
+.footer-father-box .footer-khungnho{
+    margin-top: 40px;
+}
+.footer-father-box .footer-bangnho2{
+    padding-bottom: 50px;
+}
+.footer-father-box .footer-bangnho3{
+    padding-bottom: 50px;
+}
+.footer-father-box .footer-chu9{
+   margin-top: 10px;
+}
+/* FOOTER END */

@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {background-color: #F2F2F2;}
+.nav-right-contact {
+    position: fixed;
+    left: 91%;
+    top: 40%;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nav-right-contact .icon-wrapper {
+    width: 200px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* icon ben tay phai */
+.nav-right-contact .nav-right-icon {
+    position: fixed;
+    left: 97.2%;
+    transition: 0.9s;
+}
+
+    .nav-right-contact .nav-right-icon-fb {
+        width: 35px;
+        height: 39px;
+        z-index: 10;
+        position: fixed;
+        top: 40.2%;
+    }
+    .nav-right-contact .nav-right-icon-yt{
+        width: 36px;
+        height: 39px;
+        z-index: 10;
+        position: fixed;
+        top: 48.7%
+    }
+    .nav-right-contact .nav-right-icon-gr {
+        width: 39px;
+        height: 39px;
+        z-index: 10;
+        position: fixed;
+        top: 56.85%
+    }
+    .nav-right-contact .nav-right-icon-tl {
+        width: 40px;
+        height: 40px;
+        z-index: 10;
+        position: fixed;
+        top: 65.6%
+    }
+
+/* box icon tay phải */
+.nav-right-contact .box-contact {
+    width: 120px;
+    height: 39px;
+    z-index: 9;
+    margin-left: 35px;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: white;
+    transition: 0.9s;
+}
+
+.nav-right-contact .box-contact-link {
+    color: white;
+    text-decoration: none;
+}
+    .nav-right-contact .box-fb{
+        background-color: #295396;
+        opacity: 0%;
+        position: fixed;
+        top: 40.2%;
+    }
+    .nav-right-contact .box-yt{
+        background-color: #FF0000;
+        opacity: 100%;
+        position: fixed;
+        top: 48.7%
+    }
+    .nav-right-contact .box-gr{
+        opacity: 0%;
+        background-color: #3E9EF8;
+        position: fixed;
+        top: 56.85%
+    }
+    .nav-right-contact .box-tl{
+        opacity: 0%;
+        background-color: #239CD7;
+        position: fixed;
+        top: 65.6%
+    }
+
+.nav-right-contact .box-contact-click  {
+    width: 100px;
+    margin-left: 102px;
+}
+/* Transition */
+/* Icon */
+.nav-right-contact .box-contact-click:hover .nav-right-icon-fb {
+    position: fixed;
+    left: 92.9%;
+}
+.nav-right-contact .box-contact-click:hover .nav-right-icon-yt {
+    position: fixed;
+    left: 92.9%;
+}
+.nav-right-contact .box-contact-click:hover .nav-right-icon-gr {
+    position: fixed;
+    left: 92.9%;
+}
+.nav-right-contact .box-contact-click:hover .nav-right-icon-tl {
+    position: fixed;
+    left: 92.9%;
+}
+/* Box */
+.nav-right-contact .box-contact-click:hover .box-fb {
+    margin-left: -76px;
+    opacity: 100%;
+}
+.nav-right-contact .box-contact-click:hover .box-yt {
+    margin-left: -75px;
+    opacity: 100%;
+}
+.nav-right-contact .box-contact-click:hover .box-gr {
+    margin-left: -75px;
+    opacity: 100%;
+}
+.nav-right-contact .box-contact-click:hover .box-tl {
+    margin-left: -75px;
+    opacity: 100%;
+}
+/* Right-conner-contact zalo and messenger */
+.right-conner-contact {
+    display: flex;
+    flex-direction: column;
+}
+    .right-conner-contact .right-conner-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .right-conner-contact .right-conner-icon-zalo {
+        position: fixed;
+        top: 81%;
+        left: 96.3%;
+        cursor: pointer;
+    }
+    .right-conner-contact .right-conner-icon-messenger {
+        position: fixed;
+        top: 90%;
+        left: 96.3%;
+        cursor: pointer;
+    }
+
+/* Zalo */
+.zalo-chat-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 301px;
+    height: 0px;
+    border-radius: 20px;
+    box-shadow: -3px 1px 22px -1px rgba(0,0,0,0.53);
+    position: fixed;
+    left: 75.9%;
+    top: 20%;
+    z-index: 12;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0%;
+}
+
+.zalo-chat-box-top {
+    display: flex;
+    padding-left: 20px;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1474FF;
+    color: white;
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 10px;
+}
+    .status-active {
+        width: 12px;
+        height: 12px;
+        background-color: #FAA81A;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        position: absolute;
+        top: 38px;
+        left: 34px;
+    }
+    .zalo-chat-box-avatar {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        position: relative;
+        
+    }
+    .zalo-chat-box-top-1 {
+        display: flex;
+        align-items: center;
+    }
+    .zalo-chat-box-top-text {
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .zcbt-btn {
+        margin-left: 9px;
+        padding: 8px;
+        background-color: #267FFF;
+        border-radius: 50%;
+        border: none;
+        color: #EFF5FF;
+    }
+    .zcbt-text {
+        font-size: 16px;
+        margin-left: 5px;
+        font-weight: 400;
+    }
+
+.zalo-chat-box-middle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    border-bottom: 2px solid #E4E8EC;
+    justify-content: space-evenly;
+    padding: 80px 0px 80px 0px;
+}
+    .zcbm-text {
+        color: #8397A7;
+    }
+    .zcbm-btn {
+        width: 90%;
+        height: 100px;
+        margin-top:10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 20px;
+    }
+        .zcbm-btn-1{
+            background-color: #0068FF;
+            color: white;
+        }
+        .zcbm-btn-2{
+            background-color: #E4E8EC;
+            color: #383838;
+        }
+
+.zalo-chat-box-bottom {
+    width: 100%;
+    height: 10%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+    .zcbb-btn{
+        width: 100px;
+        height: 20px;
+        border-radius: 5px;
+        margin-right: 10px;
+        border: none;
+        font-size: 14px;
+        font-weight: 550;
+    }
+        #zcbb-btn-tv {
+            background-color: #EDF5FF;
+            color: #1D79FF;
+            cursor: pointer;
+        }
+        #zcbb-btn-el {
+            background-color: white;
+            color: #383838;
+            cursor: pointer ;
+        }
+/* Function */
+.online-color {
+    background-color: #EDF5FF ;
+    color: #1D79FF ;
+    font-size: 14px;
+    font-weight: 550;
+}
+.offline-color {
+    background-color: white ;
+    color: #383838 ;
+    font-size: 14px;
+    font-weight: 550;
+}
+.zalo-off {
+    height: 0px !important;
+    opacity: 0%;
+}
+.zalo-onl{
+    height: 400px !important;
+    opacity: 100%;
+}

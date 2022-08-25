@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#navbar-fix-top {
+    background-color: #0C1A25;
+    color: #EE933A;
+    width: 100%;
+    padding: 14px 0px 10px 104px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    height: 40px;
+    align-items: center;
+}
+
+#navbar-fix-top .title {
+    color: rgb(254, 149, 43);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
