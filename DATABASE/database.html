@@ -1,0 +1,334 @@
+<!-- Cloud Service: nhiệm vụ như backend
+-Firebase.google.com -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./database.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="navbar-fix-top">
+        <h5 class="title">CỔ PHIẾU ĐỘT BIẾN</h5>
+    </div>
+    <div class="menu-container">
+        <div class="menu-logo"><img src="logo.svg" alt="logo"></div>
+        <div class="menu-box">
+            <a href="http://127.0.0.1:5500/HOME%20PAGE/homepage.html"><div><i class="fa-solid fa-house"></i>Trang chủ</div></a>
+            <div class="abc"><i class="fa-solid fa-chart-line"></i>Phân tích cổ phiếu
+            <ul class="menu-box-1">
+                <li class="menu-con">Phân tích kỹ thuật</li>
+                <li class="menu-con">Phân tích cơ bản</li>
+                <li class="menu-con">Hướng dẫn sử dụng</li>
+            </ul>
+             </div>
+
+            <div><i class="fa-solid fa-microphone"></i>Tư vấn khuyến nghị</div>
+            <div class="acb"><i class="fa-solid fa-book-open hover-2"></i>Học chứng khoán
+            <ul class="menu-box-2">
+                <li class="menu-con-1">Khóa học 0đ - LET'S INVESTING</li>
+                <li class="menu-con-1">Let Profit Run</li>
+                <li class="menu-con-1">Trading Mastery</li>
+                <li class="menu-con-1">Kiến thức chứng khoán</li>
+            </ul>
+             </div>
+            <div><i class="fa-solid fa-people-group"></i>Nhật ký giao dịch</div>
+            <div><i class="fa-solid fa-people-group"></i>Về chúng tôi</div>
+        </div>
+        <div class="quang-cao">
+            <img src="https://thumbs.gfycat.com/AcrobaticLightheartedAnkole.webp" alt="" class="casino casino1">
+        </div>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <div><a href="http://127.0.0.1:5500/Login/Login.html"><button class="btn">Đăng nhập</button></a></div>
+    </div>
+    <div class="nav-left-container">
+        <div class="nav-left-warper">
+            <i class="fa-solid fa-bars my-icon my-bars"></i>
+            <div class="dong0 nav-left-dong">
+                <a href="http://127.0.0.1:5500/HOME%20PAGE/homepage.html"><div class="dong0 nav-left-dong">
+                    <i class="fa-solid fa-house my-icon my-house"></i>
+                    <p class="chu0"> Trang chủ</p>
+                </div></a>
+            </div>
+            <input class="nav-left-search" type="search" name="search" placeholder="Nhập cổ phiếu">
+            <i class="fa-solid fa-magnifying-glass my-icon my-magnifying-glass"></i>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-chart-line my-icon">
+                    <span class="nav-left-text">Phân tích cổ phiếu</span>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-microphone my-icon">
+                    <span class="nav-left-text">Tư vấn khuyến nghị</span>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-book-open my-icon">
+                    <a href="http://127.0.0.1:5500/DATABASE/database.html"><span class="nav-left-text">Kiến thức chứng khoán</span></a>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-book my-icon">
+                    <a href="http://127.0.0.1:5500/DATABASE/database.html"><span class="nav-left-text">Tin nhanh chứng khoán</span></a>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-clipboard-list my-icon">
+                    <a href="http://127.0.0.1:5500/anTest/anTest.html"><span class="nav-left-text">Học chứng khoán</span></a>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-people-group my-icon">
+                    <span class="nav-left-text">Về chúng tôi</span>
+                </i>
+            </div>
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-user-large my-icon">
+                    <span class="nav-left-text">Tuyển dụng</span>
+                </i>
+            </div>
+            
+            <div class="nav-left-dong">
+                <i class="fa-solid fa-circle-question my-icon">
+                    <span class="nav-left-text">Hỏi đáp</span>
+                </i></div>
+            <div class="nav-left-dong"><i class="fa-solid fa-handshake my-icon">
+                    <span class="nav-left-text">Hợp tác cùng chúng tôi</span>
+                </i></div>
+            <div class="nav-left-dong"><i class="fa-solid fa-circle-user my-icon">
+                    <span class="nav-left-text">Tài khoản</span>
+                </i></div>
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDch89PFvK0vXlzXXcD0i3G2tlfg-hcy7A",
+            authDomain: "fake-trading.firebaseapp.com",
+            projectId: "fake-trading",
+            storageBucket: "fake-trading.appspot.com",
+            messagingSenderId: "116261702215",
+            appId: "1:116261702215:web:bbac23c1bffdc35284ff62"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+    <!-- START -->
+    <div class="news-wrapper">
+        <div class="news-myName">
+            <i class="fa-solid fa-align-justify">Chứng khoán</i><a href="http://127.0.0.1:5500/ADMIN%20MONITOR/admin.html"><button class="admin-btn">Administrator</button></a>
+            <input type="text" name="tìm kiếm" placeholder="Gõ từ khóa bạn muốn tìm" class="nut">
+        </div>
+        <ul id="api-list">
+            <li>
+                <div class="fake-news-list">
+                    <div class="list-1">
+                        <img src="https://cdn.takeprofit.vn/1656608912212" alt="photo" id="fake-news-image">
+                        <div class="fake-news-text">
+                            <a href="http://127.0.0.1:5500/info1/info.html"><h3 class="fake-news-title">Môi giới chứng khoán là gì ? Kĩ năng và công việc của môi giới
+                                chúng khoán </h3></a>
+                            <p class="fake-news-content">Nghề môi giới chứng khoán trở thành một nghề hot, được nhiều
+                                người săn đón. Vậy môi giới chứng khoán là gì?</p>
+                            <h3 class=" fake-news-date">2 Tháng trước</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <nav class="nav-right-contact">
+        <ul>
+            <li class="icon-wrapper">
+                <div class="box-contact-click">
+                <div class="box-contact box-fb"><a href="https://www.facebook.com/Takeprofitvalueinvesting" class="box-contact-link">Facebook</a></div>
+                <a href="https://www.facebook.com/Takeprofitvalueinvesting">
+                    <img src="./facebook.png" alt="facebook" class="nav-right-icon nav-right-icon-fb">
+                </a>
+                </div>
+            </li>
+            <li class="icon-wrapper">
+                <div class="box-contact-click">
+                <div class="box-contact box-yt"><a href="https://www.youtube.com/channel/UCpeREog71pJWn5CFyeKwzCg" class="box-contact-link">Youtube</a></div>
+                <a href="https://www.youtube.com/channel/UCpeREog71pJWn5CFyeKwzCg">
+                    <img src="./youtube.png" alt="youtube" class="nav-right-icon nav-right-icon-yt">
+                </a>  
+                </div>            
+            </li>
+            <li class="icon-wrapper">
+                <div class="box-contact-click">
+                <div class="box-contact box-gr"><a href="https://www.facebook.com/groups/1352882528512491" class="box-contact-link">Group</a></div>
+                <a href="https://www.facebook.com/groups/1352882528512491" >
+                    <img src="./group.png" alt="group" class="nav-right-icon nav-right-icon-gr">
+                </a> 
+                </div>  
+            </li>
+            <li class="icon-wrapper">
+                <div class="box-contact-click">
+                <div class="box-contact box-tl"><a href="https://t.me/+hyJ32-QzCJdhOThl" class="box-contact-link">Telegram</a></div>
+                <a href="https://t.me/+hyJ32-QzCJdhOThl">
+                    <img src="./telegram.png" alt="telegram" class="nav-right-icon nav-right-icon-tl">
+                </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="right-conner-contact">
+        <button id="button-icon-zalo"><img src="./zalo.png" alt="zalo" class="right-conner-icon right-conner-icon-zalo"></button>
+        <button id="button-icon-mesenger" onclick="myFunction()" ><img src="./messenger.png" alt="messenger" class="right-conner-icon right-conner-icon-messenger"></button>
+    </div>
+    <div class="zalo-chat-box">
+        <div class="zalo-chat-box-top">
+            <div class="zalo-chat-box-top-1">
+                <div class="zalo-chat-box-avatar">
+                    <img src="./zalo-chat-box-avatar.jpg" alt="" class="zalo-chat-box-avatar">
+                    <div class="status-active"></div>
+                </div>
+                <div class="zcbt-text">Take Profit Việt Nam</div>
+                <div><button class="zcbt-btn zcbt-btn-1"><i class="fa-solid fa-ellipsis"></i></button></div>
+                <div><button class="zcbt-btn zcbt-btn-1"><i class="fa-solid fa-chevron-down"></i></button></div>
+            </div>
+            <div>
+                <p class="zalo-chat-box-top-text zalo-chat-box-top-text-1">Xin Chào!</p>
+                <p class="zalo-chat-box-top-text zalo-chat-box-top-text-2">Rất vui khi được hỗ trợ bạn</p>
+            </div>
+        </div>
+        <div class="zalo-chat-box-middle">
+            <p class="zcbm-text">Bắt đầu trò chuyện với Take Profit Việt Nam</p>
+            <button class="zcbm-btn zcbm-btn-1" onclick="myFunction()">Chat bằng Zalo</button>
+            <button class="zcbm-btn zcbm-btn-2" onclick="myFunction()">Chat nhanh</button>
+        </div>
+        <div class="zalo-chat-box-bottom">
+            <button id="zcbb-btn-tv" class="zcbb-btn">Tiếng Việt</button>
+            <button id="zcbb-btn-el" class="zcbb-btn">English</button>
+        </div>
+    </div>
+    <div class="footer-father-box">
+        <div class="children-box">
+            <div class="footer-khungnho">
+                <p class="footer-logo"><img src="./image.svg" alt="photo"></p>
+                <br>
+                <P class="footer-text-white">
+                <h3 class="footer-text-white">Công ty cổ phần TAKE PROFIT INVESTMENT HOLDINGS</h3>
+                </P>
+                <br>
+                <P class="footer-text-1">Take profit cam kết hỗ trợ toàn diện cho nhà đầu tư đạt thành công bền vững trên thị
+                    trường và gói khuyến nghị chuyên sâu và các khóa học , công cụ bài bản.</P>
+                <br>
+                <P class="footer-text-white">Địa chỉ: Tầng 4 , số 169 Bùi thị xuân, P , Nguyễn du , Q, Hai bà trưng Hà nội</P>
+                <br>
+                <P class="footer-text-white"> Liên hệ : cskh@takeprofit.vn</P>
+                <br>
+                <div class="footer-bang1"><a
+                        href="https://www.dmca.com/Protection/Status.aspx?id=81c76021-9647-4801-9326-34e3e4e155f5&refurl=https%3a%2f%2ftakeprofit.vn%2ftin-nhanh-chung-khoan&rlo=true"><img
+                            src="./dmca-website-logo-2022.png" alt="photo" class="anh-dmca"></a>
+                </div>
+                <p>
+                <h2 class="footer-text-white">Vị trí trên bản đồ</h2>
+                </p>
+                <a
+                    href="https://www.google.com/maps?ll=21.012553,105.84997&z=14&t=m&hl=vi&gl=US&mapclient=embed&q=169+P.+B%C3%B9i+Th%E1%BB%8B+Xu%C3%A2n+B%C3%B9i+Th%E1%BB%8B+Xu%C3%A2n+Hai+B%C3%A0+Tr%C6%B0ng+H%C3%A0+N%E1%BB%99i"><img
+                        src="./z3657697375970_eebd6125b9c9ca058334daf8cf244689.jpg" alt="photo"></a>
+                <div class="icon1">
+                    <i class="fa-brands fa-square-facebook footer-brands"></i>
+                    <i class="fa-brands fa-youtube footer-brands"></i>
+                    <i class="fa-brands fa-linkedin-in footer-brands"></i>
+                    <i class="fa-solid footer-solid fa-people-group"></i>
+                    <i class="fa-solid fa-z footer-solid"></i>
+                </div>
+            </div>
+
+
+            <div class="footer-khungnho1">
+                <div class="footer-small-box-1">
+                    <div class="footer-khungcon1">
+                        <div class="footer-bangnho2">
+                            <h3>VỀ CHÚNG TÔI</h3>
+                            <span class="footer-chu9">Giới thiệu Take Profit</span>
+                            <br>
+                            <span class="footer-chu9">Hợp tác với chúng tôi</span>
+                            <br>
+                            <span class="footer-chu9">Ưu đãi</span>
+                            <br>
+                            <span class="footer-chu9">sự kiện</span>
+                        </div>
+                        <div class="footer-bangnho5">
+                            <h3>SẢN PHẨM</h3>
+                            <span class="footer-chu9">Tư vấn khuyến nghị</span>
+                            <br>
+                            <span class="footer-chu9">Khóa học chứng khoán</span>
+                            <br>
+                            <span class="footer-chu9">Công cụ hỗ trợ đầu tư</span>
+                            <br>
+                            <span class="footer-chu9">Đăng ký dịch vụ</span>
+                        </div>
+
+                    </div>
+                    <div class="footer-khungcon2">
+                        <div class="footer-bangnho3">
+                            <h3>PHÂN TÍCH CỔ PHIẾU</h3>
+                            <span class="footer-chu9">Phân tích kĩ thuật </span>
+                            <br>
+                            <span class="footer-chu9">Phân tích cơ bản</span>
+                            <br>
+                            <span class="footer-chu9">Hướng dẫn sử dụng</span>
+                            <br>
+                            <span class="footer-chu9">Tin nhanh chứng khoán</span>
+                        </div>
+                        <div class="bangnho4">
+                            <h3>KIẾN THỨC CHỨNG KHOÁN</h3>
+                            <span class="footer-chu9">Chứng khoán cơ bản</span>
+                            <br>
+                            <span class="footer-chu9">Chỉ số chứng khoán</span>
+                            <br>
+                            <span class="footer-chu9">Tài khoản chứng khoán</span>
+                            <br>
+                            <span class="footer-chu9">Phân tích chứng khoán</span>
+                            <br>
+                            <span class="footer-chu9">Giao dịch chứng khoán</span>
+                            <br>
+                            <span class="footer-chu9">Học chứng khoán</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer-chu5">© 2022 Take Profit, All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../Z-PJ1-NAV-RIGHT/nav-right.js"></script>
+
+    <script src="./database.js"></script>
+</body>
+
+</html>

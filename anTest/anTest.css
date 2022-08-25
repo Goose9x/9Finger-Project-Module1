@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} 
+#navbar-fix-top {
+  background-color: #0C1A25;
+  color: #EE933A;
+  width: 100%;
+  padding: 14px 0px 10px 104px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  height: 40px;
+  align-items: center;
+}
+
+#navbar-fix-top .title {
+  color: rgb(254, 149, 43);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.anTest-container {
+  width: 100%;
+  margin-top: -130px;
+  margin-left: -70px;
+}
+.a{
+  /* padding-bottom: 80px; */
+  margin-bottom: 30px;
+  margin-right: 30px !important;
+  width: 350px !important;
+}
+.anh1{
+  position: relative;
+  top: -436px;
+  left: 74%;
+}
+.anh{
+  padding-left: 20% !important;
+}
+.button1{
+  background-color: rgb(170, 201, 146);
+  color: rgb(0, 101, 79);
+  border: none;
+  margin-top: 30px !important;
+  border-radius: 5px;
+  width: 100px !important;
+  height: 30px;
+  margin-left: 158px;
+}
+.button2{
+  background-color: rgb(255, 169, 54);
+  color: rgb(0, 101, 79);
+  border: none;
+ margin-top: 30px !important;
+ border-radius: 5px;
+  width: 100px !important;
+  height: 30px;
+  margin-left: 158px;
+}
+.button3{
+  background-color: rgb(0, 101, 79);
+  color: #fff;
+  border: none;
+  margin-top: 6px !important;
+  border-radius: 5px;
+  width: 100px !important;
+  height: 30px;
+  margin-left: 158px;
+  top: -10px;
+}
+.an1{
+  color: rgb(0, 101, 79);
+}
+.ann1{
+  color: rgb(0, 101, 79);
+  background-color: rgb(170, 201, 146);
+  border-radius: 5px;
+}
+.dich1{
+  margin-left: 30px;
+  font-size: 25px;
+  border-bottom: 2px solid rgb(0, 101, 79);
+}
+.an2{
+  color: rgb(0, 101, 79);
+}
+.ann2{
+  color: rgb(0, 101, 79); 
+  background-color: rgb(255, 169, 54);
+ border-radius: 5px;
+}
+.dich2{
+  margin-left: 30px;
+  font-size: 25px; 
+  border-bottom: 2px solid rgb(0, 101, 79);;
+}
+.ann3{
+  color: white;
+  background-color: rgb(0, 101, 79);
+  border-radius: 5px;
+}
+.dich3{
+  margin-left: 30px;
+  font-size: 25px;
+  border-bottom: 2px solid white;
+}
+.an3{
+  color: rgb(0, 101, 79);
+}
+.setwith{
+  color: rgb(0, 101, 79);
+  border-bottom: 10px solid rgb(0, 101, 79);
+  margin-top: 50px !important;
+ font-size: 30px;
+ margin-left: -10px;
+}
+.setwith2{
+  color: chocolate;
+  margin-top: 50px !important;
+  font-size: 30px;
+  margin-left: -20px;
+}
+.chu1{
+  color: rgb(0, 101, 79);
+  font-size: 18px;
+  margin-left: 150px !important;
+
+}
+.abc{
+  margin-top: 150px !important;
+  margin-left: 150px !important;
+}
+.anh2{
+  margin-top: 10px;
+  margin-left: 20px;
+} 
+.anTest-below {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 44px;
+}
+
+
+/* Nav left */
+.nav-left-warper{
+  width: 50px;
+  height: 1000px;
+  background-color: #00654F;
+  overflow: hidden ;
+  display: flex;
+  flex-direction: column;
+  transition: 0.6s;
+  position: relative;
+}
+.chu0{
+ font-size: 15px;
+ color: yellow;
+ float: left;
+ padding-top: 10px;
+ /* margin-bottom: 20px; */
+}
+.nav-left-warper .my-icon{
+ /* width: 28px; */
+ font-size: 25px;
+ padding: 15px;
+ color: white;
+ margin: left 10px;
+}
+.nav-left-warper .my-bars{
+  font-size: 40px;
+  padding: 10px;
+  padding-left: -10px;
+  padding-bottom: 20px;
+}
+.nav-left-container{
+  width: 5%;
+  height: 100%;
+  position: fixed;
+  font-family: 'Courier New', Courier, monospace; 
+  z-index: 1000;
+  overflow: scroll;
+  transition: 0.6s; 
+  top: 6.4%
+}
+.nav-left-warper .my-magnifying-glass{
+  color:black;
+   float: right;
+  width: 20%;
+  margin-top: -45px;
+  margin-right: 25px;
+ position: relative;
+ /* padding-left: 100px; */
+
+}
+.nav-left-warper .nav-left-search{
+  width: 80%;
+  height: 38px;
+    margin-left: 10px;
+  border-radius: 20px;
+  padding-left: 20px;
+  
+} 
+.nav-left-dong{
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+  align-items: center;
+  transition: 0.6s;
+}
+.nav-left-text{
+  font-size: 12px;
+  padding-left: 20px;
+  color: white;    
+  font-family: 'Courier New', Courier, monospace;
+}
+a:-webkit-any-link {
+ text-decoration: none;
+}
+.fa-chart-mixed{
+  width: 20px;
+  height: 20px;
+}
+.nav-left-dong:hover{
+  background-color: #09432c;
+
+}
+.nav-left-warper:hover{
+  width: 250px;
+}
+.nav-left-container:hover {
+ width: 19%;
+}
+.my-magnifying-glass {
+ transition: 0.6s;
+}
+.nav-left-warper:hover .my-magnifying-glass{
+ padding-left: 170px;
+}
+
+.nav-left-warper .my-house{
+  color: rgb(206, 206, 60);
+
+}
